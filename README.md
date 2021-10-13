@@ -1,14 +1,15 @@
 # Capstone Project.
 
 > This project contains the HTML, CSS and JavaScript Capstone Project.
+>
 > Capstone projects are required at the end of every module in microverse.
 
 # Project Name
 ## Web Summit 2021
 
-** Web Summit brings together the people and companies redefining the global tech industry
+** Web Summit brings together the people and companies redefining the global tech industry.
 
-** Web Summit will return to Lisbon this year. Join us in November. ** 
+** Web Summit will return to Lisbon this year. Join us in November. 
 
 ## Live Demo Link for Github-Page Branch
 
