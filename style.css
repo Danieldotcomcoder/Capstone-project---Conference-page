@@ -74,7 +74,7 @@
     z-index: 2;
     margin-left: 85%;
   }
-  
+
   .main-title {
     margin-top: 20%;
     width: 98%;
@@ -139,6 +139,19 @@
     font-weight: 300;
   }
 
+  .rights-reserved img {
+    width: 40%;
+    height: 50%;
+    margin-left: 2%;
+  }
+
+  .partners img {
+    width: 20%;
+    height: 50%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+  }
+
   .startup-program ul {
     margin-top: 10%;
   }
@@ -156,6 +169,12 @@
     justify-content: space-between;
     text-align: center;
     align-items: center;
+  }
+
+  .past-conference img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
   }
 
   .startup-program li img {
@@ -177,12 +196,6 @@
     font-size: 4vw;
     font-weight: 400;
     color: rgba(54, 54, 54, 0.9);
-  }
-
-  .past-conference img {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
   }
 
   .startup-program li h3 {
@@ -371,7 +384,7 @@
     mix-blend-mode: multiply;
     border-radius: 5%;
     height: 120px;
-    margin-top:5%;
+    margin-top: 5%;
     overflow: hidden;
   }
 
@@ -392,15 +405,8 @@
   }
 
   @keyframes scrolling {
-    0% {transform: translateX(120vw);}
-    100% {transform: translateX(-115vw);}
-  }
-
-  .partners img {
-    width: 20%;
-    height: 50%;
-    margin-bottom: 1%;
-    margin-left: 5%;
+    0% { transform: translateX(120vw); }
+    100% { transform: translateX(-115vw); }
   }
 
   .partners hr {
@@ -427,19 +433,13 @@
     color: rgba(54, 54, 54, 0.9);
     margin-left: 5%;
   }
- 
-  .rights-reserved img {
-    width: 40%;
-    height: 50%;
-    margin-left: 2%;
-  }
- 
 }
+
 @media screen and (min-width: 768px) {
   .home-section {
     display: flex;
     flex-direction: column;
-    width: 100%;  
+    width: 100%;
     background-image: url(img/17973908.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -449,7 +449,7 @@
     background-color: rgb(43, 42, 42);
     height: 25px;
   }
-  
+
   .header1 ul {
     display: flex;
     flex-direction: row;
@@ -464,14 +464,10 @@
     color: white;
     font-size: 1vw;
   }
-  
+
   .header1-content {
     width: 15%;
     margin-left: 80%;
-  }
-
-  .hamburger-button {
-    display: none;
   }
 
   .close-btn {
@@ -528,46 +524,44 @@
     font-size: 4vw;
     background-image: url(img/135234-orange-backgrounds-2560x1600-for-desktop.jpg);
     background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
     color: transparent;
     font-weight: 800;
     line-height: 60px;
   }
 
   .main-title h2 {
-      font-size: 3vw;
-      color: orangered;
-      font-weight: 300;
+    font-size: 3vw;
+    color: orangered;
+    font-weight: 300;
   }
 
   .description {
-      margin-left: 5%;
-      width: 70%;
-      margin-top: 2%;
-      background-color: rgba(255, 255, 255, 0.2);
+    margin-left: 5%;
+    width: 70%;
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.2);
   }
 
   .description p {
-      font-size: 1.5vw;
-      color: gray;
+    font-size: 1.5vw;
+    color: gray;
   }
 
   .date-time {
-      margin-top: 1%;
-      margin-left: 5%;
-      background-color: rgba(255, 255, 255, 0.2);
-      width: 70%;
+    margin-top: 1%;
+    margin-left: 5%;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 70%;
   }
 
   .date-time h2 {
-      color: gray;
-      font-size: 3.5vw;
+    color: gray;
+    font-size: 3.5vw;
   }
 
   .date-time h3 {
-      color: gray;
-      font-size: 2vw;
+    color: gray;
+    font-size: 2vw;
   }
 
   .startup-program {
@@ -581,12 +575,12 @@
   }
 
   .startup-program h2 {
-      color: white;
-      margin-left: 42%;
-      margin-top: 3%;
-      font-size: 2vw;
-      font-weight: 500;
-   }
+    color: white;
+    margin-left: 42%;
+    margin-top: 3%;
+    font-size: 2vw;
+    font-weight: 500;
+  }
 
   .startup-program h4 {
     color: white;
@@ -600,7 +594,7 @@
   .startup-program ul {
     margin-top: 5%;
     margin-left: 8%;
-   }
+  }
 
   .startup-program li {
     color: transparent;
