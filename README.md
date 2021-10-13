@@ -1,7 +1,9 @@
 # Capstone Project.
 
 > This project contains the HTML, CSS and JavaScript Capstone Project.
->
+> Implemented for Desktop and Mobile version.
+> Contain 2 Main Pages : Home and About.
+ 
 > Capstone projects are required at the end of every module in microverse.
 
 # Project Name
