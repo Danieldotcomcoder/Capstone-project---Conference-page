@@ -24,6 +24,50 @@
     display: none;
   }
 
+  .navbar ul {
+    list-style: none;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    font-size: 6vw;
+    font-weight: 500;
+    color: rgba(0, 47, 255, 0.671);
+  } 
+
+  .navbar.show {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    background-color: #aa7d7d;
+    opacity: 0.9;
+    position: absolute;
+  }
+
+  .hamburger-button.hide {
+    display: none;
+  }
+
+  .close-btn {
+    display: none; 
+  }
+
+  .close-btn.show {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-left: 85%;
+  }
+    
   .main-title {
     margin-top: 20%;
     width: 98%;
@@ -73,7 +117,7 @@
   }
 
   .startup-program {
-    margin-top: 5%;
+    margin-top: 15%;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -206,16 +250,18 @@
   }
 
   .about {
-    margin-top: 5%;
-    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: url(img/circular-abstract-background_1010-423.jpg);
   }
 
-  .about-main {
-    /* margin-left: 10%; */
+  #hamburger-btn2 {
+    position: relative;
+    left: -43%;
+  }
+
+   .about-main {
     display: flex;
     flex-direction: column;
   }
@@ -415,7 +461,14 @@
   .header1-content {
     width: 15%;
     margin-left: 80%;
+  }
 
+  .hamburger-button {
+    display: none;
+  }
+
+  .close-btn {
+    display: none;
   }
 
   .hamburger-button {
@@ -647,7 +700,6 @@
     display: flex;
     flex-direction: column;
     background-image: url(img/circular-abstract-background_1010-423.jpg);
-    
   }
 
   .about-main h1 {
@@ -662,7 +714,7 @@
     font-size: 2vw;
     color: orangered;
     font-weight: 300;
-    margin-top: 10%;
+    margin-top: 0%;
     text-align: left;
     margin-left: 20%;
   }
@@ -672,7 +724,7 @@
     font-weight: 400;
     color: rgba(54, 54, 54, 0.9);
     width: 60%;
-    margin-top: 2%;
+    margin-top: 1%;
     border: 1px solid transparent;
     background-color: rgba(61, 156, 235, 0.1);
     margin-left: 20%;
