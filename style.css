@@ -370,8 +370,11 @@
     justify-content: space-around;
     width: 100%;
     background-color: rgb(51, 51, 51);
-    height: 150px;
+    mix-blend-mode: multiply;
+    border-radius: 5%;
+    height: 120px;
     margin-top:5%;
+    overflow: hidden;
   }
 
   .partners h2 {
@@ -384,9 +387,15 @@
   .partner-img {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    overflow-x: auto;
+    justify-content: space-around;
+    animation: scrolling 8s linear infinite;
     margin-left: 10%;
+    height: 60px;
+  }
+
+  @keyframes scrolling {
+    0% {transform: translateX(120vw);}
+    100% {transform: translateX(-115vw);}
   }
 
   .partners img {
