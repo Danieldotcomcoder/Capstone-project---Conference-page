@@ -34,6 +34,12 @@
     height: 80%;
   }
 
+  .about-contact-us a {
+    font-size: 3vw;
+    font-weight: 600;
+    color: rgb(27, 27, 27);
+  }
+
   .navbar ul li a {
     text-decoration: none;
     font-size: 6vw;
@@ -79,7 +85,6 @@
     font-size: 7.5vw;
     background-image: url(img/135234-orange-backgrounds-2560x1600-for-desktop.jpg);
     background-size: cover;
-    background-clip: text;
     color: transparent;
     font-weight: 900;
   }
@@ -97,8 +102,8 @@
   }
 
   .description p {
-  font-size: 5vw;
-  color: gray;
+    font-size: 5vw;
+    color: gray;
   }
 
   .date-time {
@@ -159,6 +164,27 @@
     margin-left: 2%;
   }
 
+  .logo h3 {
+    margin-top: 5%;
+    font-size: 4vw;
+    font-weight: 400;
+    color: rgba(54, 54, 54, 0.9);
+    width: 80%;
+    background-color: rgba(61, 156, 235, 0.1);
+  }
+
+  .past-conference h3 {
+    font-size: 4vw;
+    font-weight: 400;
+    color: rgba(54, 54, 54, 0.9);
+  }
+
+  .past-conference img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
   .startup-program li h3 {
     font-size: 3.5vw;
     font-weight: 600;
@@ -194,7 +220,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 1%;
-    width: 100%; 
+    width: 100%;
   }
 
   .speakers-title {
@@ -204,7 +230,7 @@
     color: gray;
   }
 
- .speakers ul {
+  .speakers ul {
     margin-top: 10%;
   }
 
@@ -222,7 +248,7 @@
   }
 
   .speaker-info {
-    display:flex;
+    display: flex;
     flex-direction: column;
     text-align: left;
     margin-left: 5%;
@@ -261,7 +287,7 @@
     left: -43%;
   }
 
-   .about-main {
+  .about-main {
     display: flex;
     flex-direction: column;
   }
@@ -301,12 +327,6 @@
     color: gray;
   }
 
-  .about-contact-us a {
-    font-size: 3vw;
-    font-weight: 600;
-    color: rgb(27, 27, 27);
-  }
-
   .logo {
     display: flex;
     flex-direction: column;
@@ -323,15 +343,6 @@
     margin-left: 0%;
   }
 
-  .logo h3 {
-    margin-top: 5%;
-    font-size: 4vw;
-    font-weight: 400;
-    color: rgba(54, 54, 54, 0.9);
-    width: 80%;
-    background-color: rgba(61, 156, 235, 0.1);
-  }
-
   .logo-image {
     width: 50%;
     height: 50%;
@@ -343,25 +354,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
   }
 
   .past-conference h2 {
     font-size: 6.5vw;
     font-weight: 500;
     color: rgb(34, 34, 34);
-  }
-
-  .past-conference h3 {
-    font-size: 4vw;
-    font-weight: 400;
-    color: rgba(54, 54, 54, 0.9);
-  }
-
-  .past-conference img {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
   }
 
   .partners {
