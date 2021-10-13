@@ -85,6 +85,7 @@
     font-size: 7.5vw;
     background-image: url(img/135234-orange-backgrounds-2560x1600-for-desktop.jpg);
     background-size: cover;
+    -webkit-background-clip: text;
     color: transparent;
     font-weight: 900;
   }
@@ -745,7 +746,9 @@
 
   .speakers ul li img {
     width: 30%;
-    height: 55%;
+    height: 60%;
+    border: 5px outset lightseagreen ;
+    box-shadow: 10px 10px 10px lightskyblue;
   }
 
   .speaker-name {
