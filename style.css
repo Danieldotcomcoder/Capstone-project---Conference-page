@@ -460,6 +460,18 @@
     cursor: pointer;
   }
 
+  .startup-program li {
+    color: transparent;
+    border: 1px solid transparent;
+    width: 18%;
+    background: rgba(223, 222, 222, 0.15);
+    margin-bottom: 5%;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+  }
+
   .header1 ul li {
     color: white;
     font-size: 1vw;
@@ -522,8 +534,9 @@
 
   .main-title h1 {
     font-size: 4vw;
-    background-image: url(img/135234-orange-backgrounds-2560x1600-for-desktop.jpg);
+    background-image: url(img/135234-orange-backgrounds-2560x1600-for-desktop.jpg); 
     background-size: cover;
+    -webkit-background-clip: text;
     color: transparent;
     font-weight: 800;
     line-height: 60px;
@@ -594,18 +607,6 @@
   .startup-program ul {
     margin-top: 5%;
     margin-left: 8%;
-  }
-
-  .startup-program li {
-    color: transparent;
-    border: 1px solid transparent;
-    width: 18%;
-    background: rgba(223, 222, 222, 0.15);
-    margin-bottom: 5%;
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    height: 200px;
   }
 
   .startup-program li img {
