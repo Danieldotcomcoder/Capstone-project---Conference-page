@@ -1,7 +1,9 @@
 # Capstone Project.
 
 > This project contains the HTML, CSS and JavaScript Capstone Project.
+
 > Implemented for Desktop and Mobile version.
+
 > Contain 2 Main Pages : Home and About.
  
 > Capstone projects are required at the end of every module in microverse.
@@ -15,8 +17,9 @@
 
 ## Live Demo Link for Github-Page Branch
 
-[Click Here to view deployment page](https://danieldotcomcoder.github.io/Capstone-project---Conference-page/)
-[Click here to view Description Video](https://www.loom.com/share/12eb5c9233554938b463f387974f39b9)
+>[Click Here to view deployment page](https://danieldotcomcoder.github.io/Capstone-project---Conference-page/)
+
+>[Click here to view Description Video](https://www.loom.com/share/12eb5c9233554938b463f387974f39b9)
 ## Built With
 ### Major languages
 - HTML
