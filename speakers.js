@@ -12,35 +12,35 @@ const speakersinformation = [
     image: 'img/speakers/Amy-Poehler.png',
     position: 'Founder at Amy Poehlers Smart Girls',
     description: 'Amy is one of Hollywood’s most versatile talents, credited as an actress, writer, and bestselling author',
-},
-{
+  },
+  {
     name: 'Biz Stone',
     image: 'img/speakers/Biz-Stone.png',
     position: 'Co-founder at Future Positive',
     description: 'Biz is a co-founder of Twitter, Medium and Jelly, and develops systems that serve the global conversation.',
-},
-{
+  },
+  {
     name: 'Jen Wong',
     image: 'img/speakers/Jen-Wong.png',
     position: 'COO at Reddit',
     description: 'Jen is Reddit’s chief operating officer, overseeing business strategy from Reddit’s New York office',
-},
-{
+  },
+  {
     name: 'Tim Berners Lee',
     image: 'img/speakers/Sir-Tim-Berners-Lee.png',
     position: 'CTO & co-founder at Inrupt',
     description: 'Sir Tim is the inventor of the world wide web, he has ensure that it remains open to everyone',
-},
-{
+  },
+  {
     name: 'Opal Tometi',
     image: 'img/speakers/Opal-Tometi.png',
     position: 'Co-founder at Black Lives Matter',
     description: 'Opal is one of the most influential human rights leaders of the century, according to Time magazine',
-},
-]
+  },
+];
 
 window.addEventListener('DOMContentLoaded', () => {
-    speakersinfo.innerHTML = ` <h2 class='speakers-title'>Featured Speakers</h2>
+  speakersinfo.innerHTML = ` <h2 class='speakers-title'>Featured Speakers</h2>
     <ul>
         <li>
             <img src=${speakersinformation[0].image} alt='speakerimg1'>
