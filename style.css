@@ -312,8 +312,6 @@
     flex-direction: column;
   }
 
-  
-
   .about-main h2 {
     font-size: 5vw;
     color: orangered;
@@ -328,7 +326,7 @@
     width: 80%;
     margin-top: 5%;
     border: 1px solid transparent;
-    background-color: white
+    background-color: white;
   }
 
   .about-contact-us {
@@ -435,7 +433,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: lightgray
+    background-color: lightgray;
   }
 
   .rights-reserved h2 {
