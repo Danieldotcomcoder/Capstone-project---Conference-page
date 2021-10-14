@@ -684,14 +684,14 @@
 
   .startup-program ul {
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 8%;
     display: flex;
     width: 90%;
   }
 
   .startup-program ul li {
     height: 50%;
-    margin-right: 1%;
+    margin-right: 0.3%;
   }
 
   .startup-program li img {
