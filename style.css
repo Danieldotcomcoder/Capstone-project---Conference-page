@@ -81,7 +81,7 @@
     margin-left: 1%;
   }
 
-  .main-title h1 {
+  .main-title h3 {
     font-size: 7.5vw;
     background-image: url(img/135234-orange-backgrounds-2560x1600-for-desktop.jpg);
     background-size: cover;
@@ -306,7 +306,7 @@
     flex-direction: column;
   }
 
-  .about-main h1 {
+  .about-main h3 {
     font-size: 7vw;
     color: orangered;
     font-weight: 500;
@@ -326,7 +326,7 @@
     width: 80%;
     margin-top: 5%;
     border: 1px solid transparent;
-    background-color: rgba(61, 156, 235, 0.1);
+    background-color: white
   }
 
   .about-contact-us {
@@ -360,6 +360,13 @@
   .logo-image {
     width: 50%;
     height: 50%;
+    border: 1px solid gray;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: honeydew;
+    margin-top: 2%;
   }
 
   .past-conference {
@@ -425,7 +432,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: white;
+    align-items: center;
+    background-color: lightgray
   }
 
   .rights-reserved h2 {
@@ -539,7 +547,7 @@
     margin-left: 5%;
   }
 
-  .main-title h1 {
+  .main-title h3 {
     font-size: 4vw;
     background-image: url(img/135234-orange-backgrounds-2560x1600-for-desktop.jpg);
     background-size: cover;
@@ -703,7 +711,7 @@
   .startup-program p {
     color: white;
     font-size: 1vw;
-    font-weight: 200;
+    font-weight: 500;
     letter-spacing: 1px;
     width: 98%;
     text-align: center;
@@ -784,10 +792,10 @@
     background-image: url(img/circular-abstract-background_1010-423.jpg);
   }
 
-  .about-main h1 {
+  .about-main h3 {
     font-size: 3vw;
     color: orangered;
-    font-weight: 300;
+    font-weight: 800;
     text-align: left;
     margin-left: 20%;
   }
@@ -795,7 +803,7 @@
   .about-main h2 {
     font-size: 2vw;
     color: orangered;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 0%;
     text-align: left;
     margin-left: 20%;
@@ -808,7 +816,7 @@
     width: 60%;
     margin-top: 1%;
     border: 1px solid transparent;
-    background-color: rgba(61, 156, 235, 0.1);
+    background-color: white;
     margin-left: 20%;
   }
 
@@ -842,10 +850,16 @@
   }
 
   .logo-image {
-    width: 20%;
-    height: 20%;
-    margin-left: 40%;
+    width: 25%;
+    height: 25%;
+    margin-left: 23%;
     margin-top: 2%;
+    border: 1px solid gray;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: honeydew;
   }
 
   .past-conference {
@@ -869,7 +883,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: white;
+    align-items: center;
+    background-color: lightgray;
   }
 
   .rights-reserved h2 {
